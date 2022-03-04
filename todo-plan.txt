@@ -1,0 +1,16 @@
+compare 99875337 and mh1641 especially timing and new/old mode
+Led pin: PB1
+mh1641 pin: find
+
+test serial communication
+test entering new mode, detecting card swipe
+test writing raw bits to serial
+test writing bits to serial in meaningful/useful form
+
+optional: test storing stuff in flash
+
+writer: wire in h bridge
+test writing literally anything
+test head written with no speed control
+implement speed switches
+????
