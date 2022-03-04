@@ -1,10 +1,17 @@
 compare 99875337 and mh1641 especially timing and new/old mode
+-all timing for reset named the same except mh has "datah", all other timing exact same for reset
+-seems to be new mode only maybe?
+
+general notes: theres some stuff for capacitance and all that but should be simple to just pick larger values than needed
+huh doesnt seem to be like minimum speed, lets keep things slow for better probing
+mh datasheet is simpler, go off of that
+
 Led pin: PB1
-mh1641 pin: find
+mh1641 pins: find
 
 test serial communication
-test entering new mode, detecting card swipe
-test writing raw bits to serial
+test entering new mode, detecting card swipe - looking for asic pulling line low
+test writing raw bits to serial - after above look at datasheet
 test writing bits to serial in meaningful/useful form
 
 optional: test storing stuff in flash
